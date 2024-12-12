@@ -1,0 +1,50 @@
+.menu-container {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  
+  .menu-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007fff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .menu-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-card-content {
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .menu-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-item-description {
+    color: #666;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .menu-item-price {
+    margin-top: 16px;
+    color: #007fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

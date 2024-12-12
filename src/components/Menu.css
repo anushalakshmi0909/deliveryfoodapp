@@ -1,0 +1,33 @@
+.menu-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  .menu-title {
+    color: #007fff; /* Darker blue */
+    text-align: center;
+  }
+  
+  .menu-item-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s;
+  }
+  
+  .menu-item-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-item-card h5 {
+    color: #007fff; /* Blue heading */
+  }
+  
+  button {
+    background-color: #007fff;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0059b3;
+  }
+  

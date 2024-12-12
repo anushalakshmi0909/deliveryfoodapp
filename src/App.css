@@ -1,0 +1,139 @@
+/* Static background image setup */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20220204/pngtree-big-isolated-motorcycle-vector-colorful-icons-flat-illustrations-of-delivery-by-image_984801.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px); /* Blurs the background image */
+}
+
+/* Flexbox to center content vertically and horizontally for all pages */
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px;
+}
+
+.app-content {
+  position: relative;
+  max-width: 1200px;
+  width: 100%; /* Ensures responsiveness */
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  padding: 20px;
+  margin-top: 40px; /* Adds margin from the top */
+}
+
+/* Typography and content styling */
+.app-content h1,
+.app-content h2,
+.app-content p {
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+  text-align: center; /* Centers text */
+}
+
+/* Add Home specific styles to center content in the middle */
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+.home-content h1,
+.home-content p {
+  color: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Style for the search bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 250px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  background-color: #ff3b30;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for the statistics section */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.stats div {
+  text-align: center;
+}
+
+/* Style for round images in stats */
+.stats div img {
+  width: 60px; /* Adjust the size of the circular images */
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fills the circle */
+  margin-bottom: 10px; /* Adds spacing between the image and the text */
+}
+
+.stats div h3 {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.stats div p {
+  font-size: 16px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .app-content {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .search-bar input {
+    width: 150px;
+  }
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+}

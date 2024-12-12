@@ -1,0 +1,26 @@
+/* src/components/Orders.css */
+body {
+    background-color: #e3f2fd;
+  }
+  
+  .MuiPaper-root {
+    background-color: #f0faff; /* Light blue background for the Paper */
+  }
+  
+  .MuiTypography-root {
+    color: #1976d2; /* Primary blue color for headings */
+  }
+  
+  button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #115293; /* Darker blue for hover state */
+  }
+  

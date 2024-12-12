@@ -1,0 +1,28 @@
+{
+  "restaurants": [
+    {
+      "id": "6",
+      "name": "ss hyderabad",
+      "category": "Non-Veg Restaurant",
+      "rating": "4"
+    },
+    {
+      "id": 5,
+      "name": "gh",
+      "category": "fgf",
+      "rating": "4"
+    },
+    {
+      "id": 5,
+      "name": "Anushalakshmi S",
+      "category": "Bakery",
+      "rating": "3"
+    },
+    {
+      "id": 4,
+      "name": "bb",
+      "category": "",
+      "rating": 0
+    }
+  ]
+}
